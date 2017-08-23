@@ -1,0 +1,44 @@
+body {
+	padding: 10px;
+	background-color: #F5F0DC;
+	width: 970px;
+	margin: auto;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#titulo {
+	text-align: center;
+}
+
+h2 {
+	background-color: #B3A742;
+	color: #FFFFFF;
+	padding: 5px;
+}
+
+#tb-nutrientes {
+	width: 40%;
+	margin: auto;
+	border: 1px solid black;
+}
+
+#tb-nutrientes thead tr th {
+	background-color: #FFFFFF;
+}
+
+#tb-nutrientes tbody tr:nth-child(even) {
+	background-color: #FFFFFF;
+}
+
+#tb-nutrientes tbody tr:nth-child(odd) {
+	background-color: #F8EAB3;
+}
+
+#tb-nutrientes tbody tr:hover {
+	background-color: #DDDDDD;
+}
+
+nav ul li {
+	margin-right: 50px;
+	display: inline;
+}
