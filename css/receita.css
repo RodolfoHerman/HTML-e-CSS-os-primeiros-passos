@@ -42,12 +42,7 @@ h2 {
 	background-color: #DDDDDD;
 }
 
-nav ul li {
-	margin-right: 50px;
-	display: inline;
-}
-
-figure {
+#foto {
 	width: 450px;
 	text-align: center;
 	background-color: #FFFFFF;
@@ -55,7 +50,46 @@ figure {
 	border: 1px solid black;
 	font-family: 'Comic Sans MS', cursive;
 	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.7);
-	-webkit-transform: rotate(-5deg);
+}
+
+#foto:hover {
+    -webkit-transform: rotate(-5deg);
 	-moz-transform: rotate(-5deg);
 	-ms-transform: rotate(-5deg);
+}
+
+nav {
+	float: left;
+	width: 200px;
+}
+
+nav ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+nav ul li {
+	padding: 3px;
+	margin-bottom: 5px;
+	background-color: #C7BE9B;
+}
+
+nav ul li:hover {
+	background-color:#9C8F67;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+#conteudo {
+	float: right;
+	width: 740px;
+}
+
+#banner {
+	position: fixed;
+	top: 0px;
+	right: 0px;
 }
