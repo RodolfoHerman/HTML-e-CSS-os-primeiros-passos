@@ -1,5 +1,6 @@
 # HTML-e-CSS-os-primeiros-passos
-6 Aulas básicas, separadas por commits, referente a HTML e CSS (nível iniciante)
+
+## 6 Tópicos básicos, separadas por commits, referente a HTML e CSS (nível iniciante)
 
 Aula 1 - Estrutura Basica do HTML
 
